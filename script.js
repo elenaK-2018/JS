@@ -2,9 +2,9 @@
 
 // Задание 1
 let boss;
-const name = "Elena";
+const name = 'Elena';
 
-boss = "Elena";
+boss = 'Elena';
 
 alert(`Добрый день ${boss}`);
 
