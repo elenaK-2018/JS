@@ -45,7 +45,7 @@ function showMessage() {
     }
 }
 
-showMessage();
+// showMessage();
 
 // Задание 2
 
@@ -73,18 +73,18 @@ function checkCart(products, price, promo) {
         finalAmount = price - price * 0.1;
     } 
 
-    if (products >10000) {
+    if (products > 10000) {
         finalAmount = price - 1000;
     } 
     
-    if (promo = 'methed') {
+    if (promo.toLowerCase() === 'methed') {
         finalAmount = finalAmount - finalAmount* 0.15;
     }
 
     return finalAmount;
 }
 
-console.log(checkCart(25, 2000, 'Methed'));
+console.log(checkCart(25, 2000, 'MeThEd'));
 
 
 
